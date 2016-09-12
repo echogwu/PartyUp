@@ -7,14 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F49C8F41D674D6300D825FA /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F49C8F31D674D6300D825FA /* AccountViewController.swift */; };
+		5F4FFEE81D6556DD00FC05A0 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4FFEE31D6556DD00FC05A0 /* MainTableViewController.swift */; };
+		5F4FFEE91D6556DD00FC05A0 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4FFEE41D6556DD00FC05A0 /* MapViewController.swift */; };
+		5F4FFEF51D655E8400FC05A0 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F4FFEF41D655E8400FC05A0 /* SWRevealViewController.m */; };
+		5F5B1C151D808316001D3447 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F5B1C111D808316001D3447 /* Bolts.framework */; };
+		5F5B1C161D808316001D3447 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F5B1C121D808316001D3447 /* FBSDKCoreKit.framework */; };
+		5F5B1C171D808316001D3447 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F5B1C131D808316001D3447 /* FBSDKLoginKit.framework */; };
+		5F5B1C181D808316001D3447 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F5B1C141D808316001D3447 /* FBSDKShareKit.framework */; };
+		5F6F9B141D6560490085E010 /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6F9B131D6560490085E010 /* MenuTableViewController.swift */; };
+		5F99E49D1D675A5A00D785BB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F99E49C1D675A5A00D785BB /* LoginViewController.swift */; };
 		5FF972B71D6552F1004FF87F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF972B61D6552F1004FF87F /* AppDelegate.swift */; };
-		5FF972B91D6552F1004FF87F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF972B81D6552F1004FF87F /* ViewController.swift */; };
 		5FF972BC1D6552F1004FF87F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FF972BA1D6552F1004FF87F /* Main.storyboard */; };
 		5FF972BF1D6552F1004FF87F /* PartyUp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5FF972BD1D6552F1004FF87F /* PartyUp.xcdatamodeld */; };
 		5FF972C11D6552F1004FF87F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FF972C01D6552F1004FF87F /* Assets.xcassets */; };
 		5FF972C41D6552F1004FF87F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FF972C21D6552F1004FF87F /* LaunchScreen.storyboard */; };
 		5FF972CF1D6552F1004FF87F /* PartyUpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF972CE1D6552F1004FF87F /* PartyUpTests.swift */; };
 		5FF972DA1D6552F1004FF87F /* PartyUpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF972D91D6552F1004FF87F /* PartyUpUITests.swift */; };
+		5FF975A51D655376004FF87F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FF975A41D655376004FF87F /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +45,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5F49C8F31D674D6300D825FA /* AccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		5F4FFEE31D6556DD00FC05A0 /* MainTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
+		5F4FFEE41D6556DD00FC05A0 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		5F4FFEEB1D65584500FC05A0 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Bridging-Header.h"; path = "PartyUp/Bridging-Header.h"; sourceTree = "<group>"; };
+		5F4FFEF31D655E8400FC05A0 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		5F4FFEF41D655E8400FC05A0 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		5F5B1C111D808316001D3447 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		5F5B1C121D808316001D3447 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		5F5B1C131D808316001D3447 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		5F5B1C141D808316001D3447 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
+		5F6F9B131D6560490085E010 /* MenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
+		5F6F9B151D6564B40085E010 /* PartyUp-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PartyUp-Bridging-Header.h"; sourceTree = "<group>"; };
+		5F99E49C1D675A5A00D785BB /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		5FF972B31D6552F1004FF87F /* PartyUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PartyUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FF972B61D6552F1004FF87F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5FF972B81D6552F1004FF87F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5FF972BB1D6552F1004FF87F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5FF972BE1D6552F1004FF87F /* PartyUp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PartyUp.xcdatamodel; sourceTree = "<group>"; };
 		5FF972C01D6552F1004FF87F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +71,7 @@
 		5FF972D51D6552F1004FF87F /* PartyUpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PartyUpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FF972D91D6552F1004FF87F /* PartyUpUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartyUpUITests.swift; sourceTree = "<group>"; };
 		5FF972DB1D6552F1004FF87F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FF975A41D655376004FF87F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +79,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FF975A51D655376004FF87F /* MapKit.framework in Frameworks */,
+				5F5B1C161D808316001D3447 /* FBSDKCoreKit.framework in Frameworks */,
+				5F5B1C181D808316001D3447 /* FBSDKShareKit.framework in Frameworks */,
+				5F5B1C171D808316001D3447 /* FBSDKLoginKit.framework in Frameworks */,
+				5F5B1C151D808316001D3447 /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,13 +104,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5F4FFEE01D6556CD00FC05A0 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5F4FFEE31D6556DD00FC05A0 /* MainTableViewController.swift */,
+				5F4FFEE41D6556DD00FC05A0 /* MapViewController.swift */,
+				5F6F9B131D6560490085E010 /* MenuTableViewController.swift */,
+				5F49C8F31D674D6300D825FA /* AccountViewController.swift */,
+				5F99E49C1D675A5A00D785BB /* LoginViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		5F4FFEF21D655A0600FC05A0 /* FBSDK */ = {
+			isa = PBXGroup;
+			children = (
+				5F5B1C111D808316001D3447 /* Bolts.framework */,
+				5F5B1C121D808316001D3447 /* FBSDKCoreKit.framework */,
+				5F5B1C131D808316001D3447 /* FBSDKLoginKit.framework */,
+				5F5B1C141D808316001D3447 /* FBSDKShareKit.framework */,
+				5F4FFEEB1D65584500FC05A0 /* Bridging-Header.h */,
+			);
+			name = FBSDK;
+			sourceTree = "<group>";
+		};
+		5F4FFEF61D655E8C00FC05A0 /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5F4FFEF31D655E8400FC05A0 /* SWRevealViewController.h */,
+				5F4FFEF41D655E8400FC05A0 /* SWRevealViewController.m */,
+				5F6F9B151D6564B40085E010 /* PartyUp-Bridging-Header.h */,
+			);
+			name = SWRevealViewController;
+			sourceTree = "<group>";
+		};
 		5FF972AA1D6552F1004FF87F = {
 			isa = PBXGroup;
 			children = (
+				5F4FFEF61D655E8C00FC05A0 /* SWRevealViewController */,
+				5F4FFEF21D655A0600FC05A0 /* FBSDK */,
 				5FF972B51D6552F1004FF87F /* PartyUp */,
 				5FF972CD1D6552F1004FF87F /* PartyUpTests */,
 				5FF972D81D6552F1004FF87F /* PartyUpUITests */,
 				5FF972B41D6552F1004FF87F /* Products */,
+				5FF972E71D65533F004FF87F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +164,9 @@
 		5FF972B51D6552F1004FF87F /* PartyUp */ = {
 			isa = PBXGroup;
 			children = (
-				5FF972B61D6552F1004FF87F /* AppDelegate.swift */,
-				5FF972B81D6552F1004FF87F /* ViewController.swift */,
+				5F4FFEE01D6556CD00FC05A0 /* ViewControllers */,
 				5FF972BA1D6552F1004FF87F /* Main.storyboard */,
-				5FF972C01D6552F1004FF87F /* Assets.xcassets */,
-				5FF972C21D6552F1004FF87F /* LaunchScreen.storyboard */,
-				5FF972C51D6552F1004FF87F /* Info.plist */,
-				5FF972BD1D6552F1004FF87F /* PartyUp.xcdatamodeld */,
+				5FF975A61D6553D3004FF87F /* Supporting Files */,
 			);
 			path = PartyUp;
 			sourceTree = "<group>";
@@ -126,6 +187,26 @@
 				5FF972DB1D6552F1004FF87F /* Info.plist */,
 			);
 			path = PartyUpUITests;
+			sourceTree = "<group>";
+		};
+		5FF972E71D65533F004FF87F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5FF975A41D655376004FF87F /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5FF975A61D6553D3004FF87F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5FF972B61D6552F1004FF87F /* AppDelegate.swift */,
+				5FF972C01D6552F1004FF87F /* Assets.xcassets */,
+				5FF972C21D6552F1004FF87F /* LaunchScreen.storyboard */,
+				5FF972C51D6552F1004FF87F /* Info.plist */,
+				5FF972BD1D6552F1004FF87F /* PartyUp.xcdatamodeld */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,6 +279,11 @@
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 3KD746HRBW;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					5FF972C91D6552F1004FF87F = {
 						CreatedOnToolsVersion = 8.0;
@@ -220,6 +306,48 @@
 			knownRegions = (
 				en,
 				Base,
+				af,
+				ar,
+				bn,
+				cs,
+				da,
+				de,
+				el,
+				"es-ES",
+				es,
+				fi,
+				fr,
+				gu,
+				he,
+				hi,
+				hr,
+				hu,
+				id,
+				it,
+				ja,
+				ko,
+				ml,
+				mr,
+				ms,
+				nb,
+				nl,
+				pa,
+				pl,
+				"pt-PT",
+				pt,
+				ro,
+				ru,
+				sk,
+				sv,
+				ta,
+				te,
+				th,
+				tl,
+				tr,
+				vi,
+				"zh-Hant-HK",
+				"zh-Hant-TW",
+				zh,
 			);
 			mainGroup = 5FF972AA1D6552F1004FF87F;
 			productRefGroup = 5FF972B41D6552F1004FF87F /* Products */;
@@ -265,9 +393,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5FF972B91D6552F1004FF87F /* ViewController.swift in Sources */,
+				5F6F9B141D6560490085E010 /* MenuTableViewController.swift in Sources */,
 				5FF972BF1D6552F1004FF87F /* PartyUp.xcdatamodeld in Sources */,
+				5F49C8F41D674D6300D825FA /* AccountViewController.swift in Sources */,
+				5F4FFEE81D6556DD00FC05A0 /* MainTableViewController.swift in Sources */,
+				5F99E49D1D675A5A00D785BB /* LoginViewController.swift in Sources */,
+				5F4FFEF51D655E8400FC05A0 /* SWRevealViewController.m in Sources */,
 				5FF972B71D6552F1004FF87F /* AppDelegate.swift in Sources */,
+				5F4FFEE91D6556DD00FC05A0 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,6 +459,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -340,6 +474,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -376,6 +511,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -390,6 +526,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -420,10 +557,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3KD746HRBW;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SWRevealViewController",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = PartyUp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.echoforfun.PartyUp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PartyUp-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -433,10 +577,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3KD746HRBW;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SWRevealViewController",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = PartyUp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.echoforfun.PartyUp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PartyUp-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -518,6 +669,7 @@
 				5FF972E01D6552F1004FF87F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5FF972E11D6552F1004FF87F /* Build configuration list for PBXNativeTarget "PartyUpTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +678,7 @@
 				5FF972E31D6552F1004FF87F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5FF972E41D6552F1004FF87F /* Build configuration list for PBXNativeTarget "PartyUpUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +687,7 @@
 				5FF972E61D6552F1004FF87F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
